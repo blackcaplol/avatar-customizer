@@ -1,8 +1,10 @@
-# vinext-starter
+# Whitecaplol Avatar customizer
+## make your own Whitecaplol profile picture
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+A web tool to make your own variant of @Whitecaplol's profile picture/avatar.  
+Runs on Cloudflare Pages [here](https://whitecap.pages.dev)
+
+The following is brought over from the vinext starter repo this was based on.
 
 ## Prerequisites
 
@@ -16,20 +18,8 @@ npm run dev
 npm run build
 ```
 
-This starter does not use `wrangler.jsonc`.
-
-## Included Shape
-
-- edit site code under `app/`
-- `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
-- `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
-
 ## Useful Commands
 
 - `npm run dev`: start local development
-- `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
-- `npm run db:generate`: generate Drizzle migrations after schema changes
+- `npm run build`: verify the build output
+- `npm test`: build and verify its rendered loading skeleton
