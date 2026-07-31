@@ -2,7 +2,10 @@
 ## make your own Whitecaplol profile picture
 
 A web tool to make your own variant of @Whitecaplol's profile picture/avatar.  
-Runs on Cloudflare Pages [here](https://whitecap.pages.dev)
+Runs on Cloudflare Pages:
+[here](https://whitecap.pages.dev)
+[and here](https://whitecaplol.pages.dev)
+[aaaand here](https://avatar.whitecap.lol)
 
 The following is brought over from the vinext starter repo this was based on.
 
