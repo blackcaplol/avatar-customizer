@@ -76,6 +76,12 @@ const examples: ExamplePreset[] = [
     rainbow: true,
   },
   {
+    name: "Blackcap",
+    background: defaults.background,
+    left: "#000000",
+    right: "#303030",
+  },
+  {
     name: "Red",
     background: "#C62828",
     left: "#FFF2F0",
